@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MEMORIA ENEM</string>
+    <string name="navigation_drawer_open">ABRIR AS OPÇÕES</string>
+    <string name="navigation_drawer_close">FECHAR AS OPÇÕES</string>
+    <string name="nav_header_title">MEMORIA ENEM</string>
+    <string name="nav_header_desc">OPÇÕES</string>
+    <string name="action_settings">CONFIGURAÇÕES</string>
+
+    <string name="menu_home">COMEÇO</string>
+    <string name="menu_tools">CONFIGURAÇÕES</string>
+    <string name="nome_mat">MATEMÁTICA</string>
+    <string name="nome_matC">MATEMÁTICA <b> E SUAS TECNOLOGIAS</b></string>
+    <string name="nome_natureza">CIÊNCIAS DA NATUREZA</string>
+    <string name="nome_naturezaC">CIÊNCIAS DA NATUREZA <b> E SUAS TECNOLOGIAS</b></string>
+    <string name="nome_linguagens">LINGUAGENSS, CÓDIGOS</string>
+    <string name="nome_linguagensC">LINGUAGENSS, CÓDIGOS <b> E SUAS TECNOLOGIAS</b></string>
+    <string name="nome_humanas">CIÊNCIAS HUMANAS <b> E SUAS TECNOLOGIAS</b></string>
+    <string name="nome_humanasC">CIÊNCIAS HUMANAS</string>
+    <string name="nome_complementar"><b> E SUAS TECNOLOGIAS</b></string>
+    <string name="grupos">TEMATICAS</string>
+    <string name="filosofia">FILOSOFIA</string>
+</resources>

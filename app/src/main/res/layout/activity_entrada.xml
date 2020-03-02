@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_logo"
+
+    tools:context=".Entrada">
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cardMat"
+       android:layout_width="@dimen/cardX"
+       android:layout_height="@dimen/cardX"
+       android:layout_marginStart="137dp"
+       android:layout_marginTop="190dp"
+       android:layout_marginEnd="138dp"
+       android:layout_marginBottom="152dp"
+       android:maxWidth="@dimen/cardX"
+       android:maxHeight="@dimen/cardX"
+       android:backgroundTint="@color/cardFundo"
+       app:layout_constraintBottom_toTopOf="@+id/cardBaixoDireita"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/cardTopoDireita"
+       android:visibility="invisible"
+       tools:ignore="UnusedAttribute">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:contentDescription="@string/app_name"
+          android:src="@mipmap/ic_centro" />
+
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cardBaixoDireita"
+       android:layout_width="@dimen/cardX"
+       android:layout_height="@dimen/cardX"
+       android:maxWidth="@dimen/cardX"
+       android:maxHeight="@dimen/cardX"
+       android:layout_marginTop="531dp"
+       android:layout_marginEnd="52dp"
+       android:layout_marginStart="120dp"
+       android:backgroundTint="@color/cardFundo"
+       tools:ignore="UnusedAttribute"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toStartOf="@+id/cardMat"
+       app:layout_constraintStart_toStartOf="parent"
+       android:visibility="invisible"
+       app:layout_constraintTop_toBottomOf="@+id/cardTopoDireita">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:contentDescription="@string/app_name"
+          android:visibility="invisible"
+          android:src="@mipmap/ic_naturais"
+          />
+
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cardTopoDireita"
+       android:layout_width="@dimen/cardX"
+       android:layout_height="@dimen/cardX"
+       android:maxWidth="@dimen/cardX"
+       android:maxHeight="@dimen/cardX"
+       android:layout_marginStart="70dp"
+       android:layout_marginTop="30dp"
+       android:layout_marginEnd="140dp"
+       android:backgroundTint="@color/cardFundo"
+       tools:ignore="UnusedAttribute"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toEndOf="@+id/cardMat"
+       android:visibility="invisible"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:contentDescription="@string/app_name"
+          android:src="@mipmap/ic_linguagens" />
+
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cardTopEsquerda"
+       android:layout_width="@dimen/cardX"
+       android:layout_height="@dimen/cardX"
+       android:layout_marginEnd="270dp"
+       android:layout_marginBottom="200dp"
+       android:layout_marginStart="100dp"
+       android:layout_marginTop="60dp"
+       android:maxWidth="@dimen/cardX"
+       android:maxHeight="@dimen/cardX"
+       android:backgroundTint="@color/cardFundo"
+       tools:ignore="UnusedAttribute"
+       app:layout_constraintBottom_toTopOf="@+id/cardMat"
+       app:layout_constraintEnd_toStartOf="@+id/cardTopoDireita"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:visibility="invisible"
+       >
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:contentDescription="@string/app_name"
+          android:src="@mipmap/ic_matematica" />
+
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cardBaixoEsquerda"
+       android:layout_width="@dimen/cardX"
+       android:layout_height="@dimen/cardX"
+       android:layout_marginStart="270dp"
+       android:layout_marginTop="540dp"
+       android:layout_marginEnd="100dp"
+       android:maxWidth="@dimen/cardX"
+       android:maxHeight="@dimen/cardX"
+       android:backgroundTint="@color/cardFundo"
+       tools:ignore="UnusedAttribute"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toEndOf="@+id/cardBaixoDireita"
+       app:layout_constraintTop_toBottomOf="@+id/cardTopoDireita"
+       android:visibility="invisible"
+       >
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:contentDescription="@string/app_name"
+          android:src="@mipmap/ic_humanas" />
+
+   </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

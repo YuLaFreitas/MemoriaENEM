@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "289247835821",
+    "firebase_url": "https://memoriaenem.firebaseio.com",
+    "project_id": "memoriaenem",
+    "storage_bucket": "memoriaenem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289247835821:android:3acc77d16d0b7fb55e7824",
+        "android_client_info": {
+          "package_name": "com.appenem.memoriaenem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289247835821-4680nfne04i1mau4sacf6p2msjv93m9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appenem.memoriaenem",
+            "certificate_hash": "ee4a6f26c6d5b2119aad35fce26429be0065c2d1"
+          }
+        },
+        {
+          "client_id": "289247835821-ef5ulcvevc3n41ctkk5ei9jok5dijjta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX6AKTf3Lrk1Pr-IE6fFxALMaNDmpWG0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289247835821-ef5ulcvevc3n41ctkk5ei9jok5dijjta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

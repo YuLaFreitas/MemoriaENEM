@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    >
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.appenem.memoriaenem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"
+
+        />
+
+    <fragment
+        android:id="@+id/grupoHumanas"
+        android:name="com.appenem.memoriaenem.ui.gallery.GrupoHumanas"
+        android:label="@string/nome_humanasC"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/grupoNatureza"
+        android:name="com.appenem.memoriaenem.ui.gallery.GrupoNatureza"
+        android:label="@string/nome_naturezaC"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/grupoMatematica"
+        android:name="com.appenem.memoriaenem.ui.gallery.GrupoMatematica"
+        android:label="@string/nome_matC"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/grupoLinguagens"
+        android:name="com.appenem.memoriaenem.ui.gallery.GrupoLinguagens"
+        android:label="@string/nome_linguagensC"
+        tools:layout="@layout/fragment_gallery" />
+
+
+
+</navigation>
